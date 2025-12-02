@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+:root {
+    --color-brand-red: #D32F2F;
+    --color-brand-black: #1a1a1a;
+    --color-brand-white: #FFFFFF;
+    --color-bg-light: #f8f9fa;
+    --color-text-primary: #2d3436;
+    --color-text-secondary: #636e72;
+    --font-primary: 'Almarai', sans-serif;
+    --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 20px 40px rgba(211, 47, 47, 0.15);
+    --radius-md: 12px;
+    --radius-lg: 24px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-bg-light);
+    color: var(--color-text-primary);
+    direction: rtl;
+    /* Arabic support */
+    overflow-x: hidden;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
